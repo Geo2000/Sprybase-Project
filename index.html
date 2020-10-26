@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<div class="blackDiv">
+			<div class="menu">
+				<img src="img/Group 365.png" class="logo">
+				<ul>
+				  <li><a href="#">Projects</a></li>
+				  <li><a href="#">Partners</a></li>
+				  <li><a href="#">FAQ</a></li>
+				  <li><a href="#whiteRectangle4">Masters</a></li>
+				  <li><a href="#">Classes</a></li>
+				  <li><a href="#whiteRectangle3">Course Experience</a></li>
+				  <li><a href="#" style="padding-right: 120px; ">About us</a></li>
+				  <li id="register"><a href="#">Register</a></li>
+				</ul>
+			</div>
+			
+			<div class="parentOfRectangle1">
+				<div class="whiteRectangle1">
+					<span class="contentRight">
+						<span id="productDesignCourse"><h1>Product Design Course</h1></span> 
+						<img src="img/UI UX.png" id="UIUX">
+						<div id="productFactory"><h2>Product Factory</h2></div>
+						<span class="text first">
+							Learn how design thinking, user research, business vision and marketing, and finally designing and creating real digital products for real users.
+						</span>
+						<span id="orange-btn"><h4>Start Register</h4></span>
+					</span>
+					<span class="rightPictureParent"><img src="img/Group 942.png" id="picture942"></span>
+				</div>
+			</div>
+
+			<div class="parentOfRectangle2">
+				<div class="whiteRectangle2">
+					<div class="oneCanvas">
+						<canvas id="myCanvas1" style="width: 100px; height: 60px;"></canvas>
+						<script>
+							var c1 = document.getElementById("myCanvas1");
+							var ctx = c1.getContext("2d");
+							ctx.moveTo(0, 50);
+							ctx.lineWidth = 3;
+							ctx.lineTo(50,50);
+							ctx.stroke();
+						</script> 
+						<div id="mySquare">
+							<div><img src="img/circle.png" id="myCircle"></div>
+						</div>
+					</div>
+
+					<div class="aboutPicture">
+						<img src="img/About.png">
+						<div id="textAbout">About us</div>
+					</div>
+
+					<div class="social-media">
+						<img src="img/facebook-square-brands.png">
+						<img src="img/twitter-brands.png">
+						<img src="img/instagram-brands(1).png">
+					</div>
+
+					<div class="twoCanvas">
+						<canvas id="myCanvas" style="width: 150px; height: 60px;"></canvas>
+						<script>
+							var c = document.getElementById("myCanvas");
+							var ctx = c.getContext("2d");
+							ctx.beginPath();
+							ctx.moveTo(0, 0);
+							ctx.bezierCurveTo(0, 100, 103, 100, 103, 0);
+							ctx.lineWidth = 3;
+							ctx.stroke();
+
+							var canvas = document.getElementById("myCanvas");
+							var ctx = canvas.getContext("2d");
+							ctx.beginPath();
+							ctx.moveTo(48, 0);
+							ctx.bezierCurveTo(48, 95, 255, 95, 255, 0);
+							ctx.lineWidth = 3;
+							ctx.stroke();
+						</script> 
+					</div>
+					<div class="text second">Today, given the economic and labor market conditions, the best and least risky way to invest is to invest in personal assets and skills. UI / UX Product Design Course covers all aspects of product design from product thinking and design to user-centric research and product research and business vision and digital marketing to product designers and creators, designing the end-user experience and interface of the product and how to deliver it. Includes.</div>
+					
+				</div>
+				<label style="display: inline-block;">
+					<input type="checkbox" style="display: none;">
+					<div id="blackRectangle" onclick="makeRectangleBigger()">
+						<img src="img/Group 365.png" class="logo">
+						<img src="img/Group 602.png" class="play-btn"> 
+					</div>
+				</label>
+				
+			</div>
+
+			<div class="parentOfRectangle3">
+				<div class="whiteRectangle3">
+					<a href="#" id="whiteRectangle3"></a>
+					<img src="img/Group 910.png" id="experience">
+					<div class="nav-bar">
+						<ul>
+						  <li><a href="#">After attending the course</a></li>
+						  <li><a href="#">During the period</a></li>
+						  <li class="active"><a  href="#" style="color: white;">Before attending the course</a></li>
+						</ul>
+					</div>
+					<div class="thirdPage">
+						<p>
+							<img src="img/Group 468.png" >
+							This course has been attempted by zero people who are eager to learn product design, especially user experience and user interface, so it is not a prerequisite, but due to the limited capacity of the priority course with early enrolled people, others can participate in future courses. . <br>Obviously, the ability to use tools like Adobe Photoshop and Adobe Illustrator as well as Microsoft Word, Excel tools, and of course a lot of enthusiasm and energy,
+						</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="parentOfRectangle4">
+				<div class="whiteRectangle4">
+					<a href="#" id="whiteRectangle4" ></a>
+					<div id="masters"><h1>Masters</h1>
+						<div> <h3>Masters</h3></div>
+					</div>
+					<div class="slideshow">
+						<h3>Course 1</h3>
+						<div class="gallery-container">
+							<img src="img/left-arrow.png" class="arrows">
+							<div class="own">
+								<img src="img/master1.png" class="gallery">
+								<div class="caption"> 
+									<p class="master-name">Shervin Mashayekh</p> 
+									<p class="job-title">Additive Product Manager</p>
+								</div>
+							</div>
+							<div class="own">
+								<img src="img/master2.png" class="gallery">
+								<div class="caption">
+									<p class="master-name">Kianoosh Keyghobadi </p> 
+									<p class="job-title">Product Manager at Digikala</p>
+								</div>
+							</div>
+							<div class="own">
+								<img src="img/master3.png" class="gallery">
+								<div class="caption"> 
+									<p class="master-name">Hossein Vahdani</p> 
+									<p class="job-title"> Content Marketing Specialist</p>
+								</div>
+							</div>
+							<img src="img/right-arrow.png" class="arrows" style="margin-left: -30px;">	
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="parentOfRectangle5">
+				<div class="whiteRectangle5">
+					<div id="masters"><h1>Course fee</h1>
+						<div> <h3 style="margin-left: -35px; font-weight: bolder;">Course fee</h3></div>
+					</div>
+					<div class="content-of-5th-rectangle">
+						<div class="bullet-list">
+							<h3>What will be our achievements by participating in this course?</h3>
+							<div class="text-bullets">
+								<div>
+									<span class="parentOfBullet"><span class="bullet">✓</span></span>
+									<span class="text-list">Learn the requirements of a product designer from experienced professionals in the field.</span>
+								</div>
+								<div>
+									<span class="parentOfBullet"><span class="bullet">✓</span></span>
+									<span class="text-list">Experience in-team work and product designer interactions within the real product team.</span>
+								</div>
+								<div>
+									<span class="parentOfBullet"><span class="bullet">✓</span></span>
+									<span class="text-list">Experience working on projects with information and feature lists and real user recognition.</span>
+								</div>
+								<div>
+									<span class="parentOfBullet"><span class="bullet">✓</span></span>
+									<span class="text-list">Possibility to take Adobe exams upon completion of course and upon registration.</span>
+								</div>
+							</div>
+						</div>
+						<div class="parent-of-black-square">
+							<div class="black-square">
+								<div class="information">
+									<h3>4,000,000Toman</h3>
+									<h2>2,300,000 Toman</h2>
+									<p>Possibility to pay periodic installment fee.</p>
+									<div id="smallButton">Register</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="horizontalLine"><hr></div>
+					<div id="footer">Possibility of refund prior to the third session if the course quality is not satisfied.</div>
+				</div>
+			</div>
+
+			<div class="parentOf6thBlock">
+				<div class="grey-block-content">
+					<div id="masters"><h1>Schedule</h1>
+						<div> <h3 style="margin-left: -40px; font-weight: bolder;">Schedule</h3></div>
+					</div>
+					<div class="start-end-course">
+						<h3>Start of course</h3>
+						<div class="dots">
+							<div id="empty-circle"></div>
+							<div class="border">
+								<div></div>
+							</div>
+							<div id="full-circle"></div>
+						</div>
+						<h3>End of course</h3>
+					</div>
+					<div class="rectangles-with-dates">
+						<div class="aaa">
+							<img src="img/Rectangle 114.png">
+							<div class="centered">2019 &#8287 &#8287 / &#8287 &#8287  11 &#8287 &#8287 /  &#8287 &#8287 11</div>
+						</div>
+						<div class="aaa">
+							<img src="img/Rectangle 114.png">
+							<div class="centered">2019 &#8287 &#8287 / &#8287 &#8287  08 &#8287 &#8287 /  &#8287 &#8287 11</div>
+						</div>
+					</div>
+					<div class="days-to-sign-up">
+						<div>11</div>
+						<p>Days left to sign up</p>
+						<div id="registerButton">Register</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="parentOfFooter">
+				<div class="footerPage">
+					<div class="icons">
+						<img src="img/facebook-square-brands.png">
+						<img src="img/twitter-brands.png">
+						<img src="img/instagram-brands(1).png">
+					</div>
+					<div>
+						<img src="img/Group 368.png" class="logo smaller">
+					</div>
+					<p>Contact Number: 0912-1234567</p>
+				</div>
+			</div>
+		</div>
+			
+	</div>	
+		
+		
+
+	<div class="white"></div>
+	<div class="grey"></div>
+	
+	</div>
+
+	<!--<script>
+		function makeRectangleBigger() {
+			document.getElementById("blackRectangle").style.width = 70%;
+			document.getElementById("blackRectangle").style.height = 100%;
+		}
+	</script> -->
+</body>
+</html>
